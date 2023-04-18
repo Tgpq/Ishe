@@ -1,4 +1,4 @@
-FROM quay.io/rogerpq/repthon
+FROM RepthonArabic/userbot_Whatsapp
 RUN git clone https://github.com/RepthonArabic/userbot_Whatsapp /root/RepthonArabic
 WORKDIR /root/RepthonArabic/
 RUN npm install npm@latest
