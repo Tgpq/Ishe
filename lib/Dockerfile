@@ -1,6 +1,6 @@
-FROM quay.io/sampandey001/secktor
-RUN git clone https://github.com/SamPandey001/Secktor-Md /root/SamPandey001
-WORKDIR /root/SamPandey001/
+FROM quay.io/rogerpq/repthon
+RUN git clone https://github.com/RepthonArabic/userbot_Whatsapp /root/RepthonArabic
+WORKDIR /root/RepthonArabic/
 RUN npm install npm@latest
 RUN yarn install --network-concurrency 1
 EXPOSE 8000
